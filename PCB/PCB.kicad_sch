@@ -12193,7 +12193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebd43db9-b1a8-4921-ad1f-a83b5593c730")
-		(property "Reference" "BOOT"
+		(property "Reference" "BOOT1"
 			(at 154.94 52.07 0)
 			(effects
 				(font
@@ -12245,7 +12245,7 @@
 		(instances
 			(project "PCB"
 				(path "/7d2cf6c2-cd4f-44e4-8c0c-48fa8c8e68c1"
-					(reference "BOOT")
+					(reference "BOOT1")
 					(unit 1)
 				)
 			)
@@ -12261,7 +12261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f019e1b7-69f3-4dcc-a638-1420d2be609f")
-		(property "Reference" "RESET"
+		(property "Reference" "RESET1"
 			(at 26.67 29.21 0)
 			(effects
 				(font
@@ -12313,7 +12313,7 @@
 		(instances
 			(project "PCB"
 				(path "/7d2cf6c2-cd4f-44e4-8c0c-48fa8c8e68c1"
-					(reference "RESET")
+					(reference "RESET1")
 					(unit 1)
 				)
 			)
