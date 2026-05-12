@@ -92,4 +92,121 @@ Time Spent: 1 hour
 
 ![layout](https://cdn.hackclub.com/019e1b29-6189-7470-8b3b-2e4b283a3891/Screen%20Shot%202026-05-11%20at%209.04.30%20am.png)
 
-Layed out all my parts
+Layed out my port and the mircocontroller
+
+![wire](https://cdn.hackclub.com/019e1b2e-6dff-78cc-9f6b-6e36ee14e242/Screen%20Shot%202026-05-11%20at%209.04.26%20am.png)
+
+Wire this thingy with the data lines
+
+![image](https://cdn.hackclub.com/019e1b2f-40ee-7bc6-9900-6e0b8ebac70f/Screen%20Shot%202026-05-11%20at%209.42.19%20am.png)
+
+Layed out the rest of the parts(mostly)
+
+![image](https://cdn.hackclub.com/019e1b30-4715-73a0-9942-03ceec1312bf/Screen%20Shot%202026-05-11%20at%209.51.22%20am.png)
+
+Finished laying out the parts(this was annoying)(almost as annoying as nimit)
+
+![image](https://cdn.hackclub.com/019e1b34-4951-7001-8448-a635487f5849/Screen%20Shot%202026-05-11%20at%2010.21.51%20am.png)
+
+route it up, route it, route it up
+
+also problem :) 
+
+the flash
+
+it no worky
+
+as in if i want to route it
+
+the lines cross over the usb data lines
+
+meaning that i need to put the flash above the usb and not the other way around
+
+so in other wordds
+
+I
+
+am
+
+gonna
+
+crash
+
+out
+
+because I need to bascially reroute this whole thing and also reposition all the parts. but eh this was kinda messy so hopefully it gets better???
+
+idk we look and see and pray and cry
+
+
+![image](https://cdn.hackclub.com/019e1b37-47e1-7bd8-b715-00bfadd53783/Screen%20Shot%202026-05-11%20at%209.21.15%20pm.png)
+
+did a thing
+
+repositioned everything and routed the flash first. its kinda wonky though sincce i need the traces to go away from the thingy. which is fun
+
+![image](https://cdn.hackclub.com/019e1b38-3297-7878-ac47-432e30946145/Screen%20Shot%202026-05-11%20at%209.14.25%20pm.png)
+
+idk if thats a problem so i asked around and am waiting response. in the meantime imma route the rest of the stuff.
+
+
+![image](https://cdn.hackclub.com/019e1b39-5434-7e8d-b433-b0aa18c5b202/Screen%20Shot%202026-05-11%20at%209.49.41%20pm.png)
+
+made a wibbly wobbly line for length matching for the usb data line. cuz thats cool and i also finally learnt how to use the fillet feature on kicad and am now spamming it everywhere.
+
+
+![image](https://cdn.hackclub.com/019e1b3a-5b92-765b-9b69-5a37f5a2d40a/Screen%20Shot%202026-05-11%20at%209.55.01%20pm.png)
+
+feedback from the niminator came back and says its hella cooked.
+
+so i did another thing and rotated it 45 degrees so the traces are more even and stuff.
+
+![image](https://cdn.hackclub.com/019e1b3b-3490-7e02-a873-aefacd8dfd57/Screen%20Shot%202026-05-11%20at%2010.09.27%20pm.png)
+
+I added a 3 pin header at the top over there and also extended the other header to 6 pins cuz i had space and the more pins the merrier
+
+![image](https://cdn.hackclub.com/019e1b3c-b610-76c4-a97e-668ddc49c15e/Screen%20Shot%202026-05-11%20at%2010.20.12%20pm.png)
+
+routing the headers
+
+![image](https://cdn.hackclub.com/019e1b42-0d4f-79b2-845f-e0c8af66f757/Screen%20Shot%202026-05-11%20at%2010.30.18%20pm.png)
+
+Routing is finished :)
+
+
+![image](https://cdn.hackclub.com/019e1b43-d77f-75eb-a02e-45a636b92d29/Screen%20Shot%202026-05-11%20at%2010.36.42%20pm.png)
+
+here is how large it ended up. I will probably also need to make a symbol and footprint for this since I will need to put it on a pcb
+
+
+![image](https://cdn.hackclub.com/019e1b44-c644-7db3-8b37-90aa4fba6102/Screen%20Shot%202026-05-11%20at%2010.57.51%20pm.png)
+
+
+Okay nevermind its not finished routing im stupid.
+
+So i added a 3v3 pin on the 3 at the top and also added gnd pins cuz i forgot to add them before
+
+Then I added the board edgeline, gave it a fillet, and then added a ground pour and spammed vias to let it spread and connect everything properly
+
+![image](https://cdn.hackclub.com/019e1b47-0f05-7511-ba49-b1dae2c60b75/Screen%20Shot%202026-05-11%20at%2010.58.24%20pm.png)
+
+3d model of the pcb. somehow with all the parts there
+
+
+Time spent: 2 hours
+
+## 12th of May
+
+![image](https://cdn.hackclub.com/019e1b47-8bc3-7ebb-81c1-21ea0bad3e32/Screen%20Shot%202026-05-12%20at%208.10.52%20am.png)
+
+amogus
+
+
+Needa put a silkscreen on this thang I also wanna wiggle some stuff around cuz some of it looks a tad bit iffy.
+
+
+
+
+
+
+
