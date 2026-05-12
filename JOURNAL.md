@@ -82,4 +82,14 @@ first thing I had to change my usbc footprint to change the mounting pin numbers
 
 the parts are too big. tspmo im gonna slime nimit. 
 
+anywasy time to thonk up a solution. giving it more pins to give more space would just defeat the purpose of making my own dev board
 
+So I go to the drawing board. And now an idea forms. what if I put the port at a 90 degree angle. that way It would just need to be wider and not longer. so like it would still fit on my board for the macropad. I also think it would be something cool to do since I haven't really seen horizontal dev boards before so would be cool
+
+Time Spent: 1 hour
+
+## 11th of May
+
+![layout](https://cdn.hackclub.com/019e1b29-6189-7470-8b3b-2e4b283a3891/Screen%20Shot%202026-05-11%20at%209.04.30%20am.png)
+
+Layed out all my parts
