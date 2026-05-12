@@ -6073,6 +6073,28 @@
 			)
 		)
 	)
+	(global_label "RUN"
+		(shape input)
+		(at 156.21 187.96 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "451dcbb9-3900-4bf1-bc6e-940bea6f7922")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.21 181.0438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO28"
 		(shape input)
 		(at 143.51 162.56 0)
@@ -6927,28 +6949,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO10"
-		(shape input)
-		(at 156.21 187.96 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "deb3c634-2eaf-49e4-b79d-a28298608cb1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.21 178.0805 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -12193,7 +12193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebd43db9-b1a8-4921-ad1f-a83b5593c730")
-		(property "Reference" "SW3"
+		(property "Reference" "BOOT"
 			(at 154.94 52.07 0)
 			(effects
 				(font
@@ -12201,7 +12201,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "BOOT"
 			(at 154.94 54.61 0)
 			(effects
 				(font
@@ -12245,7 +12245,7 @@
 		(instances
 			(project "PCB"
 				(path "/7d2cf6c2-cd4f-44e4-8c0c-48fa8c8e68c1"
-					(reference "SW3")
+					(reference "BOOT")
 					(unit 1)
 				)
 			)
@@ -12261,7 +12261,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f019e1b7-69f3-4dcc-a638-1420d2be609f")
-		(property "Reference" "SW2"
+		(property "Reference" "RESET"
 			(at 26.67 29.21 0)
 			(effects
 				(font
@@ -12269,7 +12269,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
+		(property "Value" "RESET"
 			(at 26.67 31.75 0)
 			(effects
 				(font
@@ -12313,7 +12313,7 @@
 		(instances
 			(project "PCB"
 				(path "/7d2cf6c2-cd4f-44e4-8c0c-48fa8c8e68c1"
-					(reference "SW2")
+					(reference "RESET")
 					(unit 1)
 				)
 			)

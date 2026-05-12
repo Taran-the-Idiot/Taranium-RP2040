@@ -204,6 +204,10 @@ amogus
 
 Needa put a silkscreen on this thang I also wanna wiggle some stuff around cuz some of it looks a tad bit iffy.
 
+Okay im home and can work more now.
+
+
+
 
 
 
