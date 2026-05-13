@@ -1,5 +1,6 @@
 # Taranium Pico
 
+Total time spent: 12 hours
 
 RP2040 Devboard thats wonky and horizontal for packaging reasons.
 
@@ -207,10 +208,126 @@ Needa put a silkscreen on this thang I also wanna wiggle some stuff around cuz s
 Okay im home and can work more now.
 
 
+![image](https://cdn.hackclub.com/019e20e1-049f-726e-bfc3-a5c5786774d9/Screen%20Shot%202026-05-12%20at%206.43.05%20pm.png)
 
 
+Changed the pins here to include run in the middle so i can externally control the reset button if I want
 
 
+![image](https://cdn.hackclub.com/019e20e2-573b-7e30-a4f0-18b581abf160/Screen%20Shot%202026-05-12%20at%206.43.21%20pm.png)
 
+Moved the capacitor closer to the flash and moved the resistor closer to the pin it needs to go to.
+
+
+![image](https://cdn.hackclub.com/019e20e5-1927-7f9a-a210-3e71e215b644/Screen%20Shot%202026-05-12%20at%206.46.58%20pm.png)
+
+repositioned this slightly so the ground pour could connect and give a better return path for the GND pin at the top cuz before it was kinda cooked.
+What are return paths you might ask? Idk i saw a reel on them once and apparently they cause noise and stuff if you dont have a clear path
+
+![image](https://cdn.hackclub.com/019e20e5-f98d-7a9f-8ba6-429ee5d26757/Screen%20Shot%202026-05-12%20at%206.49.10%20pm.png)
+
+More adjusting stuff to improve return paths and so they dont take a marathon around the whole board to get back to ground.
+
+![image](https://cdn.hackclub.com/019e2110-4ebb-7605-a2e4-bdef3eace602/Screen%20Shot%202026-05-12%20at%207.01.09%20pm.png)
+
+The whole board
+Now its time to make the silkscreen
+
+
+![image](https://cdn.hackclub.com/019e2110-dedd-75aa-8af0-0278d9941f09/Screen%20Shot%202026-05-12%20at%207.56.00%20pm.png)
+
+Here is what the size for my board is
+
+okay the bottom got clipped out but the dimensions are 39.1x26.9mm
+
+
+![image](https://cdn.hackclub.com/019e211d-9501-72a2-ba7a-784ced3b864d/Screen%20Shot%202026-05-12%20at%208.20.33%20pm.png)
+
+made a card with the same aspect ratio and rounded the corners by multiplying the aspect ratio by the number of pixels on one side and then by 2
+
+![image](https://cdn.hackclub.com/019e211e-76ee-71d9-b8c5-8f5fcb9f7d02/Screen%20Shot%202026-05-12%20at%208.30.45%20pm.png)
+
+
+Made this with my logo
+
+Its tuff frfr
+
+![image](https://cdn.hackclub.com/019e211e-f186-7712-895e-e06f44df22ec/Screen%20Shot%202026-05-12%20at%2011.30.26%20pm.png)
+
+Spent way too long making my own globe symbol thing.
+
+I wasnt bothered to search the web so I just did it myself.
+
+Time Spent: 4 hours
+
+## 13th of May
+
+![image](https://cdn.hackclub.com/019e211f-d88d-7db1-99fe-319b2a42caec/Screen%20Shot%202026-05-13%20at%2012.22.31%20am.png)
+
+
+Inversed the colours because the black logo and text on white bg lowkey looked better than the other way around and I wanna keep the top black
+
+The github logo was not made by me. i just imported it from their branding website. I am not gonna sit here and replicate the octocat from memory.
+
+
+![image](https://cdn.hackclub.com/019e2121-8688-7f8e-a4ad-bd940ac13374/Screen%20Shot%202026-05-13%20at%208.27.00%20am.png)
+
+I had to fiddle with this because figma was being sucky and wouldnt subtract it the way I wanted. so like that was annoying/fun. I did get it after a lot of trail and error
+
+
+![image](https://cdn.hackclub.com/019e2123-614e-79fb-aec5-d6f167b6fe74/Screen%20Shot%202026-05-13%20at%208.38.24%20am.png)
+
+Tada
+
+it looks nice. I had to fidle with the text a bit to get it to line up properly/not get covered
+
+
+![image](https://cdn.hackclub.com/019e2124-2ead-73ee-84ef-2a57ddcd0e9f/Screen%20Shot%202026-05-13%20at%208.46.01%20am.png)
+
+Here is what the top looks like
+
+![image](https://cdn.hackclub.com/019e2124-8e46-75d8-bd4b-d1ee60c35a62/Screen%20Shot%202026-05-13%20at%209.46.00%20am.png)
+
+After that I made a pinout diagram for the thing
+
+This was the initial thing. but rudy told me about orthogonal view on the render and I used that instead. I also found out that kicad lets you take renders with invisible backgrounds so thats fun.
+
+![bleh](pinout.png)
+
+Here is the final pinout.
+
+
+![image](https://cdn.hackclub.com/019e2129-aacd-742f-9c3b-3ba994f03b7d/Screen%20Shot%202026-05-13%20at%203.02.59%20pm.png)
+
+After that I started writing the readme and also got this sick render of the board.
+
+Now its footprint and symbol time. 
+
+Since I am making this for my other project, I need a footprint and a symbol so i can actualy import it properly into the pcb.
+
+![image](https://cdn.hackclub.com/019e212b-b399-7b2f-9fd5-927102652aed/Screen%20Shot%202026-05-13%20at%206.50.43%20pm.png)
+
+Footprint was simple enough. just some pins and then copy the cutlines, replace as silkscreen + keepout
+
+I then copy pasted the usbc footprint and positioned it properly at the right distance. then deleted everything except the front silkscreen
+
+![image](https://cdn.hackclub.com/019e212d-3f43-7fe7-8758-836c7d1379d8/Screen%20Shot%202026-05-13%20at%206.18.55%20pm.png)
+
+Paired the 3d model to the footprint.
+
+
+![image](https://cdn.hackclub.com/019e212d-c089-7fff-992f-1fe784287a55/Screen%20Shot%202026-05-13%20at%206.50.33%20pm.png)
+
+After that I made the symbol.
+
+
+Then I finished up on the readme and the bom. 
+
+And thats is. im done. its all over. until someone sanity checks this and finds 50 million problems.
+
+
+Time spent: 
+
+3 hours
 
 
