@@ -26,7 +26,7 @@ There are 25 pins in total.
 
 - 18 GPIO
 - 3 GND
-- 2 VBUS
+- 2 +5V(the VBUS label is a lie)(im sorry i didnt know what VBUS meant)
 - 1 +3V3
 - 1 RUN
 
